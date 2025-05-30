@@ -1,0 +1,77 @@
+.job-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-left: 6px solid transparent;
+  width: 100%;
+  max-width: 350px;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  margin-top: 0;
+  color: #111827;
+  font-size: 1.4rem;
+}
+
+.job-card p {
+  color: #374151;
+  margin: 6px 0;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.status.pending {
+  background-color: #fef9c3;
+  color: #ca8a04;
+}
+
+.status.viewed {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status.declined {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.status.accepted {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status.interview {
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.delete-btn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
